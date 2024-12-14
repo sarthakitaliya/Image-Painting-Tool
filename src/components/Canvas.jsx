@@ -41,8 +41,8 @@ const Canvas = ({ onMaskGenerated, isMobile }) => {
         width: parent.offsetWidth,
         height: parent.offsetHeight,
       });
-      window.addEventListener("resize", resizeCanvas);
-
+      // window.addEventListener("resize", resizeCanvas);
+      resizeCanvas();
       fabricCanvas.freeDrawingBrush.color = "white";
       fabricCanvas.freeDrawingBrush.width = brushSize;
       fabricCanvas.backgroundColor = "black";

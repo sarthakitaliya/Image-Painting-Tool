@@ -5,7 +5,6 @@
   width: auto;
 }
 .canvas-options {
-  min-height: auto;
   margin-bottom: 70px;
 }
 .options {
@@ -43,13 +42,12 @@
   }
 }
 .canvas-container {
-  /* border: 1px solid red; */
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
 }
 canvas{
   border: 1px solid black;
-  width: 100%;
+  /* width: 100%; */
   height: 100vh;
 }
 
