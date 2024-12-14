@@ -54,7 +54,7 @@ const Canvas = ({ onMaskGenerated, isMobile }) => {
         window.removeEventListener("resize", resizeCanvas);
       };
     }
-  }, [isMobile, window.onload]);
+  }, [isMobile]);
 
   useEffect(() => {
     if (canvas) {
