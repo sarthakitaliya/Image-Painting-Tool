@@ -16,6 +16,8 @@ const Canvas = ({ onMaskGenerated, isMobile }) => {
   const resizeCanvas = () => {
     if (canvas && canvasRef.current) {
       const parent = canvasRef.current.parentElement;
+      console.log(parent);
+      
       const width = parent.offsetWidth;
       const height = parent.offsetHeight;
 
@@ -52,7 +54,7 @@ const Canvas = ({ onMaskGenerated, isMobile }) => {
         window.removeEventListener("resize", resizeCanvas);
       };
     }
-  }, [isMobile]);
+  }, [isMobile, window.onload]);
 
   useEffect(() => {
     if (canvas) {
