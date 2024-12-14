@@ -1,0 +1,56 @@
+.canvas {
+  min-height: 100vh;
+  width: 100%;
+  padding: 50px 80px;
+  width: auto;
+}
+.canvas-options {
+  min-height: auto;
+  margin-bottom: 70px;
+}
+.options {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+  align-items: center;
+  padding: 0 20px;
+  button {
+    background-color: #488eff;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 10px;
+    border: 0.5px solid black;
+  }
+}
+.option-icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+  }
+
+  .plus-icon:hover,
+  .minus-icon:hover,
+  .delete-icon:hover,
+  .download-icon:hover {
+    background-color: #e7e7e7;
+  }
+}
+.canvas-container {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100%;
+}
+canvas{
+  border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+}
+
+
