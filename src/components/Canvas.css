@@ -2,9 +2,9 @@
   min-height: 100vh;
   width: 100%;
   padding: 50px 80px;
-  width: auto;
 }
 .canvas-options {
+  min-height: auto;
   margin-bottom: 70px;
 }
 .options {
@@ -42,12 +42,13 @@
   }
 }
 .canvas-container {
-  /* width: 100%; */
+  /* border: 1px solid red; */
+  width: 100%;
   height: 100%;
 }
 canvas{
   border: 1px solid black;
-  /* width: 100%; */
+  width: 100%;
   height: 100vh;
 }
 
